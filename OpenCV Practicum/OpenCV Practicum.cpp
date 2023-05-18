@@ -4,5 +4,5 @@
 
 int main()
 {
-    opdracht1_2();
+    opdracht1_4();
 }
