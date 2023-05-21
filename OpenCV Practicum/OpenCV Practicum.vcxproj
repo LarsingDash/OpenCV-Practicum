@@ -131,6 +131,11 @@
     <ClCompile Include="Opdracht1_1.cpp" />
     <ClCompile Include="Opdracht1_2.cpp" />
     <ClCompile Include="Opdracht1_3.cpp" />
+    <ClCompile Include="Opdracht2_1.cpp" />
+    <ClCompile Include="Opdracht2_2.cpp" />
+    <ClCompile Include="Opdracht2_3.cpp" />
+    <ClCompile Include="Opdracht2_4.cpp" />
+    <ClCompile Include="Opdracht3_1.cpp" />
     <ClCompile Include="OpenCV Practicum.cpp" />
     <ClCompile Include="Opdracht1_4.cpp" />
   </ItemGroup>
