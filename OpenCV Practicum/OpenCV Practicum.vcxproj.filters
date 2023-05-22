@@ -54,6 +54,9 @@
     <ClCompile Include="Opdracht3_1.cpp">
       <Filter>Source Files\Practicum3</Filter>
     </ClCompile>
+    <ClCompile Include="Opdracht3_2.cpp">
+      <Filter>Source Files\Practicum3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Opdrachten.h">

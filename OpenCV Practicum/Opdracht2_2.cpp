@@ -1,5 +1,7 @@
 #include "Opdrachten.h"
 
+#include <iostream>
+
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -10,7 +12,7 @@ using namespace cv;
 void opdracht2_2()
 {
 	//Base
-	const string path = "Resources/Custom/Boxes.jpg";
+	const string path = "Resources/cards.jpg";
 	const Mat img = imread(path);
 
 	Mat baseImg, blurImg, cannyImg, dilImg, eroImg;
@@ -18,11 +20,22 @@ void opdracht2_2()
 
 	GaussianBlur(baseImg, blurImg, Size(7, 7), 0, 0);
 
-	Canny(blurImg, cannyImg, 5, 100);
-
 	//Display
 	imshow("Image", baseImg);
-	imshow("Blur", blurImg);
-	imshow("Canny", cannyImg);
-	waitKey(0);
+	// imshow("Blur", blurImg);
+
+	int minThreshold = 0;
+	int maxThreshold = 100;
+
+	namedWindow("Thresholds");
+	createTrackbar("min", "Thresholds", &minThreshold, 100);
+	createTrackbar("max", "Thresholds", &maxThreshold, 100);
+
+	while (true)
+	{
+		Canny(blurImg, cannyImg, minThreshold, maxThreshold);
+		imshow("Canny", cannyImg);
+
+		if (waitKey(20) != -1) break;
+	}
 }

@@ -12,5 +12,6 @@ void opdracht2_3();
 void opdracht2_4();
 
 void opdracht3_1();
+void opdracht3_2();
 
 #endif
