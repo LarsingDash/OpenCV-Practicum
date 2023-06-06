@@ -12,6 +12,7 @@ using namespace cv;
 void opdracht2_4()
 {
 	string path = "Resources/Custom/kerstballen.bmp";
+	// string path = "Resources/Custom/hue.png";
 	Mat img = imread(path);
 	Mat imgHSV, mask;
 	int hmin = 275, smin = 100, vmin = 0;

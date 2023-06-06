@@ -14,4 +14,6 @@ void opdracht2_4();
 void opdracht3_1();
 void opdracht3_2();
 
+void visualPainter();
+
 #endif

@@ -69,6 +69,7 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="OpenCVProps.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -139,6 +140,7 @@
     <ClCompile Include="Opdracht3_2.cpp" />
     <ClCompile Include="OpenCV Practicum.cpp" />
     <ClCompile Include="Opdracht1_4.cpp" />
+    <ClCompile Include="VisualPainter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Opdrachten.h" />
