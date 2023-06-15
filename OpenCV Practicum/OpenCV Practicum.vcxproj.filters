@@ -57,9 +57,6 @@
     <ClCompile Include="Opdracht3_2.cpp">
       <Filter>Source Files\Practicum3</Filter>
     </ClCompile>
-    <ClCompile Include="VisualPainter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Opdrachten.h">

@@ -13,7 +13,5 @@ int main()
     // opdracht2_4();
 
     // opdracht3_1();
-    // opdracht3_2();
-
-    visualPainter();
+    opdracht3_2();
 }
